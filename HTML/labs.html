@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labs</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/CSS/labs.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="content-header">
+            <i class="bx bx-code-block"></i>
+            <h2 onclick="reloadPage()">Studyfi</h2>
+        </div>
+
+        <div class="nav-container">
+            <nav>
+                <a href="../index.html" class="nav-tab" onclick="reloadPage()">Home</a>
+                <a href="../HTML/about.html" class="nav-tab">About</a>
+                <a href="../HTML/labs.html" class="nav-tab active">Labs</a>
+                <a href="../HTML/result.html" class="nav-tab">Result</a>
+            </nav>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="labs">
+            <div class="tabs">
+                <button class="tab active" data-target="lab1">Lab1</button>
+                <button class="tab" data-target="lab2">Lab2</button>
+                <button class="tab" data-target="lab3">Lab3</button>
+                <button class="tab" data-target="lab4">Lab4</button>
+                <button class="tab" data-target="lab5">Lab5</button>
+                <button class="tab" data-target="lab6">Lab6</button>
+            </div>
+
+            <section id="tab-content">
+                <div id="lab1" class="content-container active">
+                    <h2>Introduction and Getting Familiar with HTML, CSS, and JavaScript</h2>
+                    <p> HTML, CSS, and JavaScript are the three core technologies in web development. They work together
+                        to create websites ranging from simple to complex. Getting familiar with and practicing these
+                        technologies is the first step for you to dive into the world of web development.</p>
+                    <a href="../Labs/Lab1/home.html" class="btn">Come to Lab1</a>
+                    <img src="../IMG/lab1.webp" alt="Image for Tab 1">
+                </div>
+
+                <div id="lab2" class="content-container">
+                    <h2>Implementing Login Page, Creating Courses, and Test Cases</h2>
+                    <p>In web application development, one of the fundamental and essential features is the login page.
+                        This page helps users authenticate their identity before accessing the services or courses
+                        available in the system. Additionally, the ability to create courses for users or instructors is
+                        a crucial feature in online learning platforms.</p>
+
+                    <p>To ensure the accuracy and effectiveness of these features, writing and executing test cases is
+                        very important. Test cases help verify that the login page functions correctly, users can create
+                        courses without issues, and the system operates as expected.</p>
+
+                    <p>Implementing the login page, creating courses, and writing test cases are key steps in building
+                        and ensuring the quality of a web application.</p>
+                    <a href="../Labs/Lab2/home.html" class="btn">Come to Lab2</a>
+                    <img src="../IMG/lab2.webp" alt="Image for Tab 2">
+                </div>
+
+                <div id="lab3" class="content-container">
+                    <h2>Implementing "Add Courses" Feature</h2>
+                    <p>The "Add Courses" feature is a key part of any online learning platform. It allows instructors or
+                        admins to create and manage courses. This feature typically includes functionalities such as
+                        adding course titles, descriptions, materials (like videos, quizzes, and assignments), and
+                        setting up prerequisites or levels. </p>
+                    <a href="../Labs/Lab3/home.html" class="btn">Come to Lab3</a>
+                    <img src="../IMG/lab3.webp" alt="Image for Tab 3">
+                </div>
+
+                <div id="lab4" class="content-container">
+                    <h2>Building Courses and Creating Videos for Courses</h2>
+                    <p>Building courses and creating videos are essential components of any online learning platform. As
+                        an instructor or content creator, you can organize and present your materials in various
+                        formats, with video being one of the most engaging ways to deliver content. Creating structured
+                        courses involves defining course objectives, designing modules, and ensuring that each lesson
+                        aligns with the learning goals.</p>
+
+                    <p>Videos, on the other hand, serve as a powerful tool for explaining complex concepts,
+                        demonstrating processes, or providing practical examples. By creating high-quality video
+                        content, you can enhance the learner's experience and improve the effectiveness of the course.
+                    </p>
+                    <a href="../Labs/Lab4/home.html" class="btn">Come to Lab4</a>
+                    <img src="../IMG/lab4.webp" alt="Image for Tab 4">
+                </div>
+
+                <div id="lab5" class="content-container">
+                    <h2>Building Certifications, Achievements, and Learning Tools Pages</h2>
+                    <p>In an online learning platform, certifications, achievements, and learning tools are essential
+                        features that enhance the user experience and motivate learners. These elements not only track
+                        progress but also recognize the hard work and dedication of the learners. Implementing these
+                        features helps improve engagement and provides learners with tangible outcomes from their
+                        learning journey.</p>
+                    <h4>1. Certifications Page</h4>
+                    <p>A certification page displays the certificates awarded to learners upon successful completion of
+                        a course or a set of courses. These certifications serve as proof of the skills and knowledge
+                        acquired by the learner. You can include features such as:
+
+                        <li>Certificate Design: Customize certificates with the course name, instructor name, completion
+                            date, and learner’s name.</li>
+                        <li>Download Option: Allow users to download or print their certificates in PDF format.</li>
+                        <li>Certificate Status: Track the status of the certificate (e.g., "Completed," "In Progress").
+                        </li>
+                    <h4>2. Achievements Page</h4>
+                    <p>The achievements page highlights the accomplishments learners have earned throughout their
+                        learning experience. This could include things like:
+
+                        <li>Badges for Milestones: Award badges for completing certain courses, achieving high scores in
+                            quizzes, or reaching specific learning milestones.</li>
+                        <li>Leaderboard: Display top learners or those who have completed the most courses or achieved
+                            the highest scores.</li>
+                        <li>Progress Tracker: Show learners their progress in various categories or courses, motivating
+                            them to continue learning.
+                        </li>
+                    <h4>3. Learning Tools Page</h4>
+                    <p>The learning tools page provides learners with the resources and tools they need to enhance their
+                        learning experience. These tools may include:
+
+                        <li>Quizzes and Practice Tests: Allow learners to assess their knowledge before or after a
+                            course..</li>
+                        <li>Discussion Forums: Provide a space for learners to interact with instructors and fellow
+                            students.</li>
+                        <li>Study Resources: Offer links to additional study materials, recommended books, videos, and
+                            websites for deeper learning.
+                        </li>
+                    </p>
+
+                    <a href="../Labs/Lab5/home.html" class="btn">Come to Lab5</a>
+                    <img src="../IMG/lab5.webp" alt="Image for Tab 5">
+                </div>
+
+                <div id="lab6" class="content-container">
+                    <h2>Building Home Page, Developers Page, and Rep7 Page</h2>
+                    <p>When designing a website or web application, creating the right home page, developers page, and
+                        Rep7 page is crucial for offering a seamless user experience. Each of these pages serves a
+                        unique purpose, guiding the user through the platform, offering resources to developers, and
+                        showcasing key features or tools like Rep7.
+
+                    <h4> 1. Home Page</h4>
+                    <p>The home page is the first point of contact for users, providing them with an overview of the
+                        website or platform. It must be well-organized and visually appealing to create a positive first
+                        impression. Key elements of the home page include:
+
+                        <li>Navigation Menu: Easy access to other sections like courses, features, and user profiles.
+                        </li>
+                        <li>Hero Section: A prominent section at the top with a brief description of the platform,
+                            highlighting its benefits and main features.</li>
+                        <li>Call-to-Action (CTA): Buttons or links encouraging users to sign up, explore courses, or get
+                            started.</li>
+                        <li>User Testimonials: Showcase reviews or feedback from existing users to build trust.</li>
+                        <li>Featured Courses or Tools: A section that highlights popular courses, tutorials, or tools
+                            available on the platform.</li>
+                    </p>
+                    <h4>2. Developers Page</h4>
+                    <p>The developers page is dedicated to providing resources and tools for developers who want to
+                        build, integrate, or extend the platform. This page typically includes:
+
+                        <li>API Documentation: Detailed information on how to use the platform’s APIs to integrate with
+                            other applications.</li>
+
+                        <li>SDKs and Libraries: Links to software development kits (SDKs) or libraries that make it
+                            easier
+
+                        <li>Code Samples: Provide example code to help developers get started with building on your
+                            platform.</li>
+
+                        <li> Support: A way for developers to get assistance or join a community of developers for
+                            collaboration.</li>
+                    </p>
+                    <h4> 3. Rep7 Page</h4>
+                    <p>The Rep7 page is often a specific section dedicated to a particular feature, tool, or service
+                        offered on the platform. Rep7 may refer to a tool, a system, or even a product that enhances
+                        user experience. Depending on its purpose, the Rep7 page could include:
+
+                        <li>Feature Overview: Explain what Rep7 is and how it benefits users or developers.</li>
+                        <li>Integration Guides: Provide detailed instructions on how to integrate Rep7 with existing
+                            systems
+                            or services.</li>
+                        <li>Support and FAQ: Common questions or troubleshooting tips related to Rep7.</li>
+                    </p>
+
+                    </p>
+                    <a href="../Labs/Lab6/home.html" class="btn">Come to Lab6</a>
+                    <img src="../IMG/lab6.webp" alt="Image for Tab 6">
+                </div>
+            </section>
+
+    </main>
+
+</body>
+<script src="../JS/labs.js"></script>
+
+</html>

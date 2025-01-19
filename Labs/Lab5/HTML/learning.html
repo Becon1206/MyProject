@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning</title>
-    <link rel="stylesheet" href="../Lab5/CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
@@ -13,15 +13,15 @@
         <h1>My learning</h1>
         <p><strong>87hr 36min</strong> watched
             <span class="info-icon">i</span>
-            <span onclick="navigateTo('all_activity.html')" class="hover-effect">View all activity</span>
+            <span onclick="navigateTo('./all_activity.html')" class="hover-effect">View all activity</span>
         </p>
         <nav>
             <ul>
-                <li onclick="navigateTo('all_courses.html')" class="hover-effect">All courses</li>
-                <li onclick="navigateTo('learning_paths.html')" class="hover-effect">Learning paths</li>
-                <li onclick="navigateTo('certifications.html')" class="hover-effect">Certifications</li>
-                <li onclick="navigateTo('archived.html')" class="hover-effect">Archived</li>
-                <li onclick="navigateTo('learning.html')" class="hover-effect">Learning tools</li>
+                <li onclick="navigateTo('./all_courses.html')" class="hover-effect">All courses</li>
+                <li onclick="navigateTo('./learning_paths.html')" class="hover-effect">Learning paths</li>
+                <li onclick="navigateTo('./certifications.html')" class="hover-effect">Certifications</li>
+                <li onclick="navigateTo('./archived.html')" class="hover-effect">Archived</li>
+                <li onclick="navigateTo('./learning.html')" class="hover-effect">Learning tools</li>
             </ul>
         </nav>
     </header>
@@ -37,7 +37,7 @@
     <div class="card-container">
         <!-- Learning Reminders Card -->
         <div class="card">
-            <img src="../Lab5/img/stopwatch.png" alt="Learning Reminders">
+            <img src="../img/stopwatch.png" alt="Learning Reminders">
             <h3>Learning reminders</h3>
             <p>Set time aside to learn and get reminders using your scheduler.</p>
             <p>You currently have no ongoing reminders.</p>
@@ -46,7 +46,7 @@
 
         <!-- Reflections Card -->
         <div class="card">
-            <img src=" ../Lab5/img/team.png" alt="Reflections">
+            <img src="../img/team.png" alt="Reflections">
             <h3>Reflections <span class="beta-badge">Beta</span></h3>
             <p>Take time to reflect to strengthen your learning.</p>
             <p>You have currently no recorded reflections on your learning journey.</p>
@@ -56,7 +56,7 @@
     </div>
 
 
-    <script src="../Lab5/JS/main.js"></script>
+    <script src="../JS/main.js"></script>
 </body>
 
 </html>

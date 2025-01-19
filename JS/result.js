@@ -61,11 +61,11 @@ document.addEventListener("DOMContentLoaded", function () {
         { icon: "home", text: "Home", link: "https://insanegroup.github.io/GroupWeb/index.html" },
         { icon: "requirement", text: "Requirement", link: "https://insanegroup.github.io/GroupWeb/HTML/project.html" },
         { icon: "design", text: "Design", link: "https://insanegroup.github.io/GroupWeb/HTML/project.html" },
-        { icon: "blog", text: "Blog", link: "http://127.0.0.1:5500/project/WebProject/src/html/blog.html" },
-        { icon: "contact", text: "Contact", link: "http://127.0.0.1:5500/project/WebProject/src/html/contact.html" },
-        { icon: "login", text: "Login", link: "http://127.0.0.1:5500/project/WebProject/src/html/login.html" },
-        { icon: "register", text: "Register", link: "http://127.0.0.1:5500/project/WebProject/src/html/login.html" },
-        { icon: "forgot", text: "Forgot Password", link: "http://127.0.0.1:5500/project/WebProject/src/html/forgot.html" }
+        { icon: "blog", text: "Blog", link: "https://insanegroup.github.io/WebProject/src/html/blog.html" },
+        { icon: "contact", text: "Contact", link: "https://insanegroup.github.io/WebProject/src/html/contact.html" },
+        { icon: "login", text: "Login", link: "https://insanegroup.github.io/WebProject/src/html/login.html" },
+        { icon: "register", text: "Register", link: "https://insanegroup.github.io/WebProject/src/html/login.html" },
+        { icon: "forgot", text: "Forgot Password", link: "https://insanegroup.github.io/WebProject/src/html/forgot.html" }
     ];
 
     const categories = document.createElement("div");
